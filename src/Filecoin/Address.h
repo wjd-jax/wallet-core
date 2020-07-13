@@ -50,7 +50,7 @@ class Address {
     Type type() const { return getType(bytes[0]); }
 
     /// Address prefix
-    static constexpr char PREFIX = 'f';
+    static constexpr char PREFIX = 't';
 
   public:
     /// Attempts to get the type by number.
